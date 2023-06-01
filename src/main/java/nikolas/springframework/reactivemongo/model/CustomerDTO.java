@@ -21,6 +21,7 @@ public class CustomerDTO {
     private String id;
 
     @NotBlank
+    @Size(min = 3, max = 255)
     private String customerName;
     private LocalDateTime createdDate;
     private LocalDateTime lastModifiedDate;

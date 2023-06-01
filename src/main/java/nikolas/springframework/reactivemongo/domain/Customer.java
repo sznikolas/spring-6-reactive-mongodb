@@ -22,14 +22,8 @@ public class Customer {
 
     @Id
     private String id;
-
-    @Size(max = 255)
     private String customerName;
-
-    @CreatedDate
     private LocalDateTime createdDate;
-
-    @LastModifiedDate
     private LocalDateTime lastModifiedDate;
 
 
