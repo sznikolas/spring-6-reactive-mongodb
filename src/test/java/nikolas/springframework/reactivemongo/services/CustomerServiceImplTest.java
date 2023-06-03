@@ -121,7 +121,7 @@ public class CustomerServiceImplTest {
     }
 
     @Test
-    void testDeleteBeer() {
+    void testDeleteCustomer() {
         CustomerDTO customerToDelete = getSavedCustomerDto();
 
         customerService.deleteCustomerById(customerToDelete.getId()).block();
